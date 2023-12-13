@@ -17,10 +17,3 @@ def timing(func):
         return result
 
     return wrapper
-
-
-@timing
-def test():
-    time.sleep(1)
-
-test()
